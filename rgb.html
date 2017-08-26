@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+.r{background-color: rgb(255,0,0);height: 100px;position: fixed;top: 0px;width: 100%}
+.txt{height: 1000px;background-color: rgb(255,255,0);}
+	</style>
+<script type="text/javascript">
+/*var i=10;
+function remainTime(){  
+    if(i==0){  
+        location.href='<%=path%>';  
+    }  
+    document.getElementById('endtime').innerHTML=i--;  
+    setTimeout("remainTime()",1000);  
+}  
+remainTime();
+*/
+
+
+
+(function(){
+	var e=document.getElementById("r");
+	console.log(e.style.padding);
+	//document.getElementsByTagName("html")[0].style.padding="0";
+	//console.log(document.getElementsByTagName("html")[0]);
+});
+</script>
+</head>
+<body>
+	<div class="r" id="r"></div>
+	<div class="txt"></div>
+</body>
+</html>

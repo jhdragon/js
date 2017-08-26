@@ -1,0 +1,56 @@
+<html>
+<head>
+<script>
+window.onload=function(){
+/*
+	function aa(){
+		alert("aaaaa");
+	}
+	
+	aa.prototype.init(){
+		alert("aaaaa");
+	}
+	
+aa().init();
+
+//alert("aaaaaaaaaaaaaa");
+*/
+
+
+
+	function Test()
+	{
+
+	}
+
+	Test.prototype.init=function(){
+
+			alert("aaaaaaaaaaaaa");
+	}
+	//alert(Test.prototype); // 输出 "Object"
+	//alert(Test.init());
+
+
+	var aa=window.aa || {};
+	aa.init=function(){
+		alert("aaaaaaaaaaaaa");
+
+	}
+	
+	//alert(aa);//object
+	//aa.init();
+}
+
+
+  var d=document.getElementById("da");
+  console.log(d.getAttribure('data-click'));
+  
+
+
+
+</script>
+</head>
+<body>
+<Div data-click="menu" id="da">aaaaaaaaaa</div>
+</body>
+</html>
